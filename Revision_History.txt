@@ -1,0 +1,44 @@
+Notes Pertaining to Releases 
+
+Version .01
+Initial Release. This release only contains the libraries and this document in order to prepare for the build season. Thus, this release contains NO manual mode or autonomous mode and IS NOT ready to be loaded onto any robot under any circumstance.
+
+Version 0.2 
+•	Added pwm assignment for the drive motors
+•	Added drive code, documentation, and joystick assignments 
+•	Added gearSwitch function and documentation
+•	Added pwm assignment for pan/tilt servos on camera
+•	Added pwm assignment for the camera power
+•	Added pwm assignment for turntable
+•	Added analog pin assignment for turntable motor
+•	Added high level autonomous mode program information
+•	Added pressure sensor assignment
+•	Added information about camera.c
+•	Debugged EEPROM and certified its use. Documentation added
+•	Verified that register values are still correct
+
+Version 0.3
+•	Various motor, sensor, and relay changes
+•	Added a section to explain how to write to the byte on the user OI for debugging
+•	Added user_byte assignment table and documentation for their use
+•	Added user_byte assignments for camera coordinates
+•	Added aimed_shot function and documentation
+•	Added Squishy_Drive_1stickdrive function
+•	Added abs (absolute value) function and documentation
+•	Explained how to determine starting values for the timers
+
+
+Version 0.4
+•	Added code that will allow the user to switch from one to two stick drive
+•	Added feetControl function
+•	Determined the driver and copilot controls
+•	Modified EEPROM documentation to note needed typecasts
+
+
+What will be included in the future releases?
+
+•	Timer0 initialization
+•	Gyro code
+•	Accelerometer code
+•	Improvements to vertical aiming
+•	Dashboard information
